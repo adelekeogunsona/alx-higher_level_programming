@@ -4,5 +4,5 @@ if __name__ == "__main__":
 
     all = dir(hidden_4)
     for each in all:
-        if name[0:2] != "__":
-            print(name)
+        if each[0:2] != "__":
+            print(each)
