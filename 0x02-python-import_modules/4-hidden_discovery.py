@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-import dis
-import marshal
+if __name__ == "__main__":
+    import hidden_4
 
-with open('hidden_4.pyc', 'rb') as f:
-    magic = f.read(4)  # Read the magic number
-    timestamp = f.read(4)  # Read the timestamp
-    code = marshal.load(f)  # Load the code object from the file
-    dis.disassemble(code)  # Disassemble the code object to print all names defined
+    all = dir(hidden_4)
+    for each in all:
+        if name[0:2] != "__":
+            print(name)
