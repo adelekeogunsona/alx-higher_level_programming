@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 def weight_average(my_list=[]):
+    if len(my_list) < 1:
+        return 0
+
     sum = 0
     average = 0
 
