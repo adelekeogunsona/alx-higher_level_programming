@@ -58,7 +58,7 @@ void print_python_bytes(PyObject *p)
  * print_python_list - gives data of the PyListObject
  * @p: the PyObject
  */
- 
+
 void print_python_list(PyObject *p)
 {
 	Py_ssize_t size = 0;
